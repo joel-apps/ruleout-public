@@ -1,0 +1,10 @@
+:root{--ink:#17130F;--paper:#EDE4D3;--pt:#1E1A15;--pm:#4A4238;--tm:#CFC4B0}
+*{box-sizing:border-box}body{margin:0;background:var(--ink);color:var(--paper);font:17px/1.6 'Libre Franklin',system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 20px 60px}
+.brand{font:700 15px 'Courier Prime',monospace;letter-spacing:.12em;color:var(--tm)}
+h1{font:400 44px/1.1 'DM Serif Display',serif;margin:10px 0 16px}
+h2{font:700 15px 'Courier Prime',monospace;letter-spacing:.08em;color:var(--pm);margin:28px 0 8px}
+.card{background:var(--paper);color:var(--pt);border-radius:6px;padding:22px 24px;margin:18px 0}
+.card p,.card li{color:var(--pt)} a{color:inherit} .muted{color:var(--tm)} .card .muted{color:var(--pm)}
+nav{display:flex;gap:18px;flex-wrap:wrap;margin-top:30px;font-size:15px} footer{margin-top:40px;font-size:14px;color:var(--tm)}
+.stamp{display:inline-block;border:3px solid #34577A;color:#34577A;font:700 18px 'Courier Prime',monospace;padding:4px 10px;transform:rotate(-3deg);border-radius:4px}
